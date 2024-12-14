@@ -32,7 +32,7 @@ Feel free to explore the code snippets and projects. Each file or folder will ha
 To clone this repository to your local machine, use the following command:
 
 ```bash
-git clone https://github.com/your-username/practice.git
+git clone https://github.com/tareque-ridawi/practice.git
 ```
 
 ## Contributions
