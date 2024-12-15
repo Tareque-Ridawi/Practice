@@ -1,4 +1,4 @@
-public class MethodDemo {
+public class methodCall {
 
     // A void method: prints a welcome message (no return value)
     public static void printWelcome(String name) {
@@ -25,7 +25,7 @@ public class MethodDemo {
         return calculateArea(side, side); // Reusing the rectangle area method
     }
 
-    public static void methodCall(String[] args) {
+    public static void main(String[] args) {
         // Method invocation: calling the void method
         printWelcome("Alice");
 
