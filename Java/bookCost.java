@@ -1,5 +1,5 @@
 // Class to represent a Book
-class bookCost {
+class Book {
     private String title;
     private String author;
     private double price;
@@ -21,13 +21,18 @@ class bookCost {
     public void updatePrice(double newPrice) {
         this.price = newPrice;
     }
+
+    // Getter for price
+    public double getPrice() {
+        return price;
+    }
 }
 
 // Main class to demonstrate passing objects as parameters
 public class ToStringAndObjectPassing {
     // Static method to update the book's price by passing the object
     public static void modifyBook(Book book, double discount) {
-        double discountedPrice = book.price - (book.price * discount);
+        double discountedPrice = book.getPrice() - (book.getPrice() * discount);
         book.updatePrice(discountedPrice); // Modify the object's attribute
     }
 
