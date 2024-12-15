@@ -1,4 +1,4 @@
-public class Product {
+public class accessClass {
 
     // Class attributes (fields)
     private String name; // Private for encapsulation
@@ -50,7 +50,7 @@ public class Product {
     }
 
     // Main method to demonstrate functionality
-    public static void accessClass(String[] args) {
+    public static void main(String[] args) {
         // Creating an instance of Product
         Product product = new Product("Laptop", 1200.0);
 
