@@ -1,5 +1,5 @@
 // Class to represent a Book
-class Book {
+class bookCost {
     private String title;
     private String author;
     private double price;
@@ -31,7 +31,7 @@ public class ToStringAndObjectPassing {
         book.updatePrice(discountedPrice); // Modify the object's attribute
     }
 
-    public static void bookCost(String[] args) {
+    public static void main(String[] args) {
         // Creating a Book object
         Book myBook = new Book("Effective Java", "Joshua Bloch", 45.99);
 
