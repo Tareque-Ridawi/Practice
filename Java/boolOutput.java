@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LogicalExpressionsDemo {
+public class boolOutput {
 
     // Method to check if a number is positive (method call & relational operator)
     public static boolean isPositive(int number) {
@@ -17,7 +17,7 @@ public class LogicalExpressionsDemo {
         return number >= lowerBound && number <= upperBound; // Relational and logical operators
     }
 
-    public static void boolOutput(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         // Taking user input
